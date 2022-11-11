@@ -3,8 +3,8 @@ y = input()
 z = int(input())
 a = input()
 
-if(z>a)
-print("no")
+if(z>a):
+    print("no")
 
 a = a.split(" ")
 y = y.split(" ")
