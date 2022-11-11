@@ -1,6 +1,6 @@
 def isValid(record):
     k = record.split()
-    if(len(k)==3 and k[1] == "false"):
+    if(k[1] == "false"):
         return False
     else:
         return True
